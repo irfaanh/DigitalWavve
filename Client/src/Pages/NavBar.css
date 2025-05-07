@@ -1,0 +1,38 @@
+.logoimg{
+    height: 80px;
+    width: 80px;
+}
+.navbar {
+    padding-top: 0.0rem;
+    padding-bottom: 0.0rem;
+  }
+@media (max-width: 768px) {
+    .logoimg{
+        height: 80px;
+        width: 80px;
+    }
+}
+.nav-item a:hover{
+    color: #3d8ff3;
+    text-decoration: underline;
+}
+.navlink{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    font-weight: 500;
+}
+
+.custom-toggler .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 4px auto;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+}
+.container-fluid {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  

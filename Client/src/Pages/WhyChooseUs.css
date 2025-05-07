@@ -1,0 +1,79 @@
+.why_section{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px 100px 0px;
+}
+.why_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.why_head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.why_head h2{
+    color: #3d8ff3;
+    font-weight: 800;
+}
+.why_head p{
+    font-size: 18px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.why_innercontent{
+    display: flex;
+    gap: 100px;
+    padding: 0px 20px 0px 20px;
+}
+.inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.inner i{
+    font-size: 40px;
+    color: #3d8ff3;
+}
+.inner h3{
+    font-size: 20px;
+    font-weight: 800;
+}
+.inner p{
+    font-weight: 600;
+    text-align: center;
+    font-size: 16px;
+
+}
+.why_icons{
+    font-size: 40px;
+    color: #3d8ff3;
+}
+@media (max-width:600px){
+    .why_innercontent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }  
+    .why_head p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .inner i{
+        font-size: 22px;
+    }
+    .inner h3{
+        font-size: 16px;
+
+    }
+    .inner p{
+        font-size: 16px;
+
+    }
+}

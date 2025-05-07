@@ -1,0 +1,125 @@
+.services-container {
+    position: relative;
+    padding: 2rem;
+  }
+  
+  .services-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  .services-p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  .service-card {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service-description {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transform: translateY(10px);
+    transition: opacity 0.4s ease, max-height 0.4s ease, transform 0.4s ease;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    text-align: left;
+    line-height: 1.5;
+    white-space: normal;
+    word-wrap: break-word;
+    padding: 0.5rem;
+    border-radius: 8px;
+  }
+  
+  .service-card:hover .service-description {
+    opacity: 1;
+    max-height: 500px;
+    transform: translateY(0);
+  }
+  
+  
+  
+  .scroll-button {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border-radius: 50%;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 10;
+    padding: 0.5rem;
+  }
+  
+  .scroll-button.left {
+    left: 0;
+  }
+  
+  .scroll-button.right {
+    right: 0;
+  }
+  
+  .services-scroll {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 1rem 2rem;
+  }
+  .services-scroll::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .service-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 250px;
+    min-height: 250px;
+    color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+    flex-shrink: 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .service-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .service-icon {
+    display: flex;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .service-no {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .service-title {
+    font-size: 1rem;
+  }
+
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-out forwards;
+  }
+  @media (max-width:600px){
+    .services-p{
+        font-size: 18px;
+    }
+  }
+  

@@ -1,0 +1,6 @@
+body {
+  font-family: "Red Hat Display", sans-serif;
+}
+body::-webkit-scrollbar{
+  display: none;
+}
