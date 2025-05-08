@@ -12,6 +12,7 @@ const Contact = () => {
             <input type="text" name="firstName" placeholder="Full Name" required />
             <input type="text" name="contactNumber" placeholder="Contact Number" required />
         </div>
+
         <div className="form-group">
             <input type="email" name="email" placeholder="Email" required />
         </div>
@@ -23,6 +24,7 @@ const Contact = () => {
 
 
         <div className="map-container">
+          
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d977.8484612987397!2d75.90970766962451!3d11.378914599300554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba6694f0123bdcf%3A0x1c579a28d7a51bf0!2sNUMERO%20MOBILES!5e0!3m2!1sen!2sin!4v1745289822818!5m2!1sen!2sin"
             width="100%"

@@ -14,12 +14,14 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
+
           src="/images/banner-1920X600-aroosa.webp"
           alt="First slide"
         />
       </Carousel.Item>
 
       <Carousel.Item>
+
         <img
           className="d-block w-100"
           src="/images/banner-1920X600-CDA.webp"
@@ -36,6 +38,7 @@ function ControlledCarousel() {
       </Carousel.Item>
 
       <Carousel.Item>
+        
         <img
           className="d-block w-100"
           src="/images/mra.webp"

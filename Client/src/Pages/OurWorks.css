@@ -15,6 +15,7 @@
   .our-works-grid:hover{
     cursor: pointer;
   }
+  
   .work-card {
     position: relative;
     overflow: hidden;
