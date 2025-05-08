@@ -31,9 +31,8 @@ const CustomerReviews = () => {
       name: 'Muhammed Irfan',
       date: '01.April,2024',
       rate: '/images/fivestart.png',
-      comment: `The agency has a diverse team of talented and passionate 
-      professionals who are dedicated to creating amazing work. We were 
-      truly impressed with their level of expertise and creativity.-Team Bigwig Inceptions`
+      comment: `We partnered with DigitalWave to revamp our
+       online strategy, and the results have been phenomenal.`
     },
     {
       no: 3,
@@ -41,18 +40,26 @@ const CustomerReviews = () => {
       name: 'Zayyan Noor',
       date: '27.November,2020',
       rate: '/images/fivestart.png',
-      comment: `We, NV Brothers Engineering had the opportunity to work with DigitalWave 
-      for a brochure and website project, and we must say we are thoroughly impressed with the results. 
-      The designer listened to my needs and created a brochure that accurately reflects my business and speaks to my target audience. The design is eye-catching and professional, and the overall layout is easy to navigate. The website is also fantastic. It has a clean, modern look and is user-friendly. The designer was quick to respond to any changes or updates we requested, and they made sure the website was optimized for search engines. We highly recommend Quadcubes for anyone looking for top-notch work.`
+      comment: `What sets DigitalWave apart is their strategic approach.
+       They don’t just run campaigns—they take time to understand your brand, goals, and audience.`
     },
     {
       no: 4,
       profilepic: <CgProfile />,
-      name: 'Samuel',
-      date: '12.March,2019',
+      name: 'Fathima',
+      date: '07.March,2021',
       rate: '/images/fivestart.png',
-      comment: `Doyen Legals is very much happy with the branding work done by DigitalWave. The agency's communication and project management skills were top-notch. They kept us informed and involved throughout the entire process.`
-    },
+      comment: `As a small startup, we were hesitant about investing in digital 
+      marketing. DigitalWave tailored a budget-friendly plan that delivered real value.`
+    },{
+        no: 5,
+        profilepic: <CgProfile />,
+        name: 'Alex',
+        date: '29.June,2011',
+        rate: '/images/fivestart.png',
+        comment: `While the initial onboarding took a bit longer than
+         expected, once everything was in place, the campaigns ran smoothly.`
+      }
   ];
 
   return (
